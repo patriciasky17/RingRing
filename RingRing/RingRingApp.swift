@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import OneSignal
 
 @main
 struct RingRingApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -11,7 +11,46 @@
 		8BD5FECD29D0213B007ED47D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FECC29D0213B007ED47D /* ContentView.swift */; };
 		8BD5FECF29D0213D007ED47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FECE29D0213D007ED47D /* Assets.xcassets */; };
 		8BD5FED229D0213D007ED47D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FED129D0213D007ED47D /* Preview Assets.xcassets */; };
+		8BD5FED929D0218E007ED47D /* ContentViewPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FED829D0218E007ED47D /* ContentViewPage1.swift */; };
+		8BD5FEDB29D02260007ED47D /* 4772-bell.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FEDA29D02260007ED47D /* 4772-bell.json */; };
+		8BD5FEDD29D02270007ED47D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FEDC29D02270007ED47D /* LottieView.swift */; };
+		8BD5FEE029D022C4007ED47D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8BD5FEDF29D022C4007ED47D /* Lottie */; };
+		8BD5FEE229D022ED007ED47D /* ContentViewPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FEE129D022ED007ED47D /* ContentViewPage2.swift */; };
+		8BD5FEE629D0230B007ED47D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FEE329D0230B007ED47D /* LocationManager.swift */; };
+		8BD5FEE729D0230B007ED47D /* LocationManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FEE429D0230B007ED47D /* LocationManager+Ext.swift */; };
+		8BD5FEE829D0230B007ED47D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FEE529D0230B007ED47D /* NotificationManager.swift */; };
+		8BD5FEEA29D02388007ED47D /* 104285-alert.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FEE929D02388007ED47D /* 104285-alert.json */; };
+		8BD5FEF329D0275E007ED47D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FEF229D0275E007ED47D /* NotificationService.swift */; };
+		8BD5FEF729D0275E007ED47D /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8BD5FEF029D0275E007ED47D /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BD5FEFE29D027B7007ED47D /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = 8BD5FEFD29D027B7007ED47D /* OneSignal */; };
+		8BD5FF0129D027C2007ED47D /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = 8BD5FF0029D027C2007ED47D /* OneSignal */; };
+		8BD5FF0329D02814007ED47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FF0229D02814007ED47D /* AppDelegate.swift */; };
+		8BD5FF0529D02D6D007ED47D /* Breaks Over Tim 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FF0429D02D6D007ED47D /* Breaks Over Tim 1.wav */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BD5FEF529D0275E007ED47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD5FEBF29D0213B007ED47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD5FEEF29D0275E007ED47D;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BD5FEFB29D0275E007ED47D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8BD5FEF729D0275E007ED47D /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8BD5FEC729D0213B007ED47D /* RingRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +58,20 @@
 		8BD5FECC29D0213B007ED47D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BD5FECE29D0213D007ED47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD5FED129D0213D007ED47D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BD5FED829D0218E007ED47D /* ContentViewPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage1.swift; sourceTree = "<group>"; };
+		8BD5FEDA29D02260007ED47D /* 4772-bell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4772-bell.json"; sourceTree = "<group>"; };
+		8BD5FEDC29D02270007ED47D /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		8BD5FEE129D022ED007ED47D /* ContentViewPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage2.swift; sourceTree = "<group>"; };
+		8BD5FEE329D0230B007ED47D /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8BD5FEE429D0230B007ED47D /* LocationManager+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocationManager+Ext.swift"; sourceTree = "<group>"; };
+		8BD5FEE529D0230B007ED47D /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		8BD5FEE929D02388007ED47D /* 104285-alert.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104285-alert.json"; sourceTree = "<group>"; };
+		8BD5FEEB29D02741007ED47D /* RingRing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RingRing.entitlements; sourceTree = "<group>"; };
+		8BD5FEF029D0275E007ED47D /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD5FEF229D0275E007ED47D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8BD5FEF429D0275E007ED47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD5FF0229D02814007ED47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BD5FF0429D02D6D007ED47D /* Breaks Over Tim 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Breaks Over Tim 1.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +79,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD5FEE029D022C4007ED47D /* Lottie in Frameworks */,
+				8BD5FEFE29D027B7007ED47D /* OneSignal in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD5FEED29D0275E007ED47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD5FF0129D027C2007ED47D /* OneSignal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				8BD5FEC929D0213B007ED47D /* RingRing */,
+				8BD5FEF129D0275E007ED47D /* OneSignalNotificationServiceExtension */,
 				8BD5FEC829D0213B007ED47D /* Products */,
+				8BD5FEFF29D027C2007ED47D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				8BD5FEC729D0213B007ED47D /* RingRing.app */,
+				8BD5FEF029D0275E007ED47D /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +117,21 @@
 		8BD5FEC929D0213B007ED47D /* RingRing */ = {
 			isa = PBXGroup;
 			children = (
+				8BD5FEEB29D02741007ED47D /* RingRing.entitlements */,
 				8BD5FECA29D0213B007ED47D /* RingRingApp.swift */,
 				8BD5FECC29D0213B007ED47D /* ContentView.swift */,
+				8BD5FEDA29D02260007ED47D /* 4772-bell.json */,
+				8BD5FEE929D02388007ED47D /* 104285-alert.json */,
 				8BD5FECE29D0213D007ED47D /* Assets.xcassets */,
+				8BD5FEDC29D02270007ED47D /* LottieView.swift */,
 				8BD5FED029D0213D007ED47D /* Preview Content */,
+				8BD5FED829D0218E007ED47D /* ContentViewPage1.swift */,
+				8BD5FEE129D022ED007ED47D /* ContentViewPage2.swift */,
+				8BD5FEE329D0230B007ED47D /* LocationManager.swift */,
+				8BD5FF0429D02D6D007ED47D /* Breaks Over Tim 1.wav */,
+				8BD5FEE429D0230B007ED47D /* LocationManager+Ext.swift */,
+				8BD5FEE529D0230B007ED47D /* NotificationManager.swift */,
+				8BD5FF0229D02814007ED47D /* AppDelegate.swift */,
 			);
 			path = RingRing;
 			sourceTree = "<group>";
@@ -67,6 +144,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8BD5FEF129D0275E007ED47D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8BD5FEF229D0275E007ED47D /* NotificationService.swift */,
+				8BD5FEF429D0275E007ED47D /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		8BD5FEFF29D027C2007ED47D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +170,41 @@
 				8BD5FEC329D0213B007ED47D /* Sources */,
 				8BD5FEC429D0213B007ED47D /* Frameworks */,
 				8BD5FEC529D0213B007ED47D /* Resources */,
+				8BD5FEFB29D0275E007ED47D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD5FEF629D0275E007ED47D /* PBXTargetDependency */,
+			);
+			name = RingRing;
+			packageProductDependencies = (
+				8BD5FEDF29D022C4007ED47D /* Lottie */,
+				8BD5FEFD29D027B7007ED47D /* OneSignal */,
+			);
+			productName = RingRing;
+			productReference = 8BD5FEC729D0213B007ED47D /* RingRing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BD5FEEF29D0275E007ED47D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD5FEF829D0275E007ED47D /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				8BD5FEEC29D0275E007ED47D /* Sources */,
+				8BD5FEED29D0275E007ED47D /* Frameworks */,
+				8BD5FEEE29D0275E007ED47D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RingRing;
-			productName = RingRing;
-			productReference = 8BD5FEC729D0213B007ED47D /* RingRing.app */;
-			productType = "com.apple.product-type.application";
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				8BD5FF0029D027C2007ED47D /* OneSignal */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 8BD5FEF029D0275E007ED47D /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +219,9 @@
 					8BD5FEC629D0213B007ED47D = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					8BD5FEEF29D0275E007ED47D = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 8BD5FEC229D0213B007ED47D /* Build configuration list for PBXProject "RingRing" */;
@@ -111,11 +233,16 @@
 				Base,
 			);
 			mainGroup = 8BD5FEBE29D0213B007ED47D;
+			packageReferences = (
+				8BD5FEDE29D022C4007ED47D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				8BD5FEFC29D027B7007ED47D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
 			productRefGroup = 8BD5FEC829D0213B007ED47D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8BD5FEC629D0213B007ED47D /* RingRing */,
+				8BD5FEEF29D0275E007ED47D /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +252,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD5FF0529D02D6D007ED47D /* Breaks Over Tim 1.wav in Resources */,
+				8BD5FEDB29D02260007ED47D /* 4772-bell.json in Resources */,
 				8BD5FED229D0213D007ED47D /* Preview Assets.xcassets in Resources */,
+				8BD5FEEA29D02388007ED47D /* 104285-alert.json in Resources */,
 				8BD5FECF29D0213D007ED47D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD5FEEE29D0275E007ED47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +274,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD5FED929D0218E007ED47D /* ContentViewPage1.swift in Sources */,
+				8BD5FEE229D022ED007ED47D /* ContentViewPage2.swift in Sources */,
+				8BD5FEE629D0230B007ED47D /* LocationManager.swift in Sources */,
+				8BD5FF0329D02814007ED47D /* AppDelegate.swift in Sources */,
 				8BD5FECD29D0213B007ED47D /* ContentView.swift in Sources */,
 				8BD5FECB29D0213B007ED47D /* RingRingApp.swift in Sources */,
+				8BD5FEE729D0230B007ED47D /* LocationManager+Ext.swift in Sources */,
+				8BD5FEE829D0230B007ED47D /* NotificationManager.swift in Sources */,
+				8BD5FEDD29D02270007ED47D /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD5FEEC29D0275E007ED47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD5FEF329D0275E007ED47D /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BD5FEF629D0275E007ED47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD5FEEF29D0275E007ED47D /* OneSignalNotificationServiceExtension */;
+			targetProxy = 8BD5FEF529D0275E007ED47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8BD5FED329D0213D007ED47D /* Debug */ = {
@@ -262,14 +422,19 @@
 		8BD5FED629D0213D007ED47D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RingRing/RingRing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RingRing/Preview Content\"";
 				DEVELOPMENT_TEAM = AC99AWYFJP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires a location to notify user in certain radius";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app requires a location to notify user in certain radius";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires a location to notify user in certain radius";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,14 +456,19 @@
 		8BD5FED729D0213D007ED47D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RingRing/RingRing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RingRing/Preview Content\"";
 				DEVELOPMENT_TEAM = AC99AWYFJP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires a location to notify user in certain radius";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app requires a location to notify user in certain radius";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires a location to notify user in certain radius";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +481,58 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = moontsuki.RingRing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BD5FEF929D0275E007ED47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC99AWYFJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moontsuki.RingRing.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BD5FEFA29D0275E007ED47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC99AWYFJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moontsuki.RingRing.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +560,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8BD5FEF829D0275E007ED47D /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD5FEF929D0275E007ED47D /* Debug */,
+				8BD5FEFA29D0275E007ED47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BD5FEDE29D022C4007ED47D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8BD5FEFC29D027B7007ED47D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BD5FEDF29D022C4007ED47D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BD5FEDE29D022C4007ED47D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		8BD5FEFD29D027B7007ED47D /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BD5FEFC29D027B7007ED47D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+		8BD5FF0029D027C2007ED47D /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BD5FEFC29D027B7007ED47D /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8BD5FEBF29D0213B007ED47D /* Project object */;
 }
