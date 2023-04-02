@@ -47,11 +47,11 @@ struct ContentViewPage2: View {
                         // Action to perform when the button is tapped
                         
                     }) {
-                        LottieView(name: "104285-alert", loopMode: .loop)
+                        LottieView(name: "88860-success-animation", loopMode: .loop)
                         
                     }
                     Spacer()
-                    Button("Press To Stop"){
+                    Button("Tap To Close"){
                         presentationMode.wrappedValue.dismiss()
                     }
                     .buttonStyle(StopButton())
@@ -65,11 +65,17 @@ struct ContentViewPage2: View {
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     VStack {
-                        Text("Time's Up")
+                        Text("Successful!")
                             .font(.largeTitle.bold())
                             .accessibilityAddTraits(.isHeader)
+                            .padding(.bottom, 5)
+                            .padding(.top, 50)
                         
-                        Text("Gather Now !!")
+                        Text("You've notify everyone in ")
+                            .font(.title2)
+                            .foregroundColor(.gray)
+                        
+                        Text("Apple Developer Academy")
                             .font(.title2)
                             .foregroundColor(.gray)
                     }

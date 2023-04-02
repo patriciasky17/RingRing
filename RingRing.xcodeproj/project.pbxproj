@@ -26,6 +26,7 @@
 		8BD5FF0129D027C2007ED47D /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = 8BD5FF0029D027C2007ED47D /* OneSignal */; };
 		8BD5FF0329D02814007ED47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FF0229D02814007ED47D /* AppDelegate.swift */; };
 		8BD5FF0529D02D6D007ED47D /* Breaks Over Tim 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FF0429D02D6D007ED47D /* Breaks Over Tim 1.wav */; };
+		8BD5FF2129D89592007ED47D /* 88860-success-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5FF2029D89592007ED47D /* 88860-success-animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		8BD5FEF429D0275E007ED47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD5FF0229D02814007ED47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD5FF0429D02D6D007ED47D /* Breaks Over Tim 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Breaks Over Tim 1.wav"; sourceTree = "<group>"; };
+		8BD5FF2029D89592007ED47D /* 88860-success-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "88860-success-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				8BD5FECC29D0213B007ED47D /* ContentView.swift */,
 				8BD5FEDA29D02260007ED47D /* 4772-bell.json */,
 				8BD5FEE929D02388007ED47D /* 104285-alert.json */,
+				8BD5FF2029D89592007ED47D /* 88860-success-animation.json */,
 				8BD5FECE29D0213D007ED47D /* Assets.xcassets */,
 				8BD5FEDC29D02270007ED47D /* LottieView.swift */,
 				8BD5FED029D0213D007ED47D /* Preview Content */,
@@ -255,6 +258,7 @@
 				8BD5FF0529D02D6D007ED47D /* Breaks Over Tim 1.wav in Resources */,
 				8BD5FEDB29D02260007ED47D /* 4772-bell.json in Resources */,
 				8BD5FED229D0213D007ED47D /* Preview Assets.xcassets in Resources */,
+				8BD5FF2129D89592007ED47D /* 88860-success-animation.json in Resources */,
 				8BD5FEEA29D02388007ED47D /* 104285-alert.json in Resources */,
 				8BD5FECF29D0213D007ED47D /* Assets.xcassets in Resources */,
 			);
@@ -439,7 +443,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +477,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

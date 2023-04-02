@@ -13,7 +13,7 @@ class LocationManager: NSObject, ObservableObject {
     @Published var lastLocation: CLLocation?
     @Published var locationStatus: String = ""
     
-    let geofenceRegionRadius = 800.0 // in meters
+    let geofenceRegionRadius = 400.0 // in meters
     
     let geofenceRegionCenter = CLLocationCoordinate2D(latitude: -6.257757, longitude: 106.625395)
     
@@ -75,10 +75,11 @@ class LocationManager: NSObject, ObservableObject {
         let parameters = [
             "app_id": "9268f760-aef5-4f7a-98b1-0cee933bd1d1",
             "included_segments": ["Active Users"],
-            "headings": ["en": "BREAK'S OVER"],
+            "headings": ["en": "BREAK'S OVER", "id": "WAKTU ISTIRAHAT HABIS"],
             "ios_sound": "Breaks Over Tim 1.wav",
             "contents": message,
-            "name": campaignName
+            "name": campaignName,
+            "filters": [["field": "location", "lat": geofenceRegionCenter.latitude, "long": geofenceRegionCenter.longitude, "radius": geofenceRegionRadius, "relation": "within"]]
         ] as [String : Any]
         let postData = try? JSONSerialization.data(withJSONObject: parameters)
 
@@ -124,7 +125,7 @@ class LocationManager: NSObject, ObservableObject {
                 }
             }
             
-            let message = ["en": "Time to go back to the lab!!", "es": "¡Hola, Mundo!"]
+            let message = ["en": "Time to go back to the lab!!", "id": "Waktunya kembali ke Lab!"]
             let campaignName = "Ring Ring!"
             sendPushNotification(message: message, campaignName: campaignName)
             
